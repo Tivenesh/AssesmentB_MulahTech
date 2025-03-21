@@ -1,0 +1,150 @@
+/* Update to style.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Georgia&family=Times+New+Roman&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #555;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #f47521;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #666;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Georgia', serif;
+    color: #666;
+    font-size: 42px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+p.description {
+    font-family: 'Times New Roman', serif;
+    color: #f47521;
+    margin-bottom: 40px;
+}
+
+.registration-subtitle {
+    font-family: 'Arial', sans-serif;
+    color: #999;
+    font-style: italic;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #f47521;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.phone-input {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.phone-input span {
+    padding: 10px;
+    color: #666;
+    font-size: 18px;
+}
+
+.birthday-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.phone-input input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.error {
+    color: #f00;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 5px;
+    display: none;
+}
+
+.powered {
+    margin-top: 60px;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.powered a {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    text-align: left;
+}
+
+#noEmail {
+    width: auto;
+    margin-right: 10px;
+}
+
+.summary-item {
+    text-align: left;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.summary-item strong {
+    color: #666;
+}
